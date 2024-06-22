@@ -1,0 +1,59 @@
+.dp-picker-input {
+  width: 100% !important;
+  border-radius: 3px !important;
+  padding: 5px 10px !important;
+  margin-bottom: 0 !important;
+
+  &:focus {
+    border: 1px solid #ced4da !important;
+  }
+}
+
+.dp-calendar-nav-container {
+  height: 50px !important;
+}
+
+.dp-nav-header button {
+  font-size: 16px !important;
+}
+
+.dp-calendar-nav-container-left button,
+.dp-calendar-nav-container-right button {
+  background-color: white !important;
+
+  &::before {
+    height: 12px !important;
+    width: 12px !important;
+    left: -5px !important;
+  }
+}
+
+.dp-day-calendar-container button {
+  border: none;
+  background-color: none !important;
+}
+
+.dp-calendar-weekday {
+  width: 14.20% !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  font-style: inherit !important;
+  color: #2b2b2b !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 11.2px !important;
+  border: none !important;
+  margin-top: 5px !important;
+}
+
+dp-day-calendar .dp-calendar-day {
+  height: 35px !important;
+  width: 35px !important;
+
+  &:hover {
+    background-color: #ffa500 !important;
+    color: white !important;
+  }
+}
+
+
