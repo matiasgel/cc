@@ -3,13 +3,16 @@
 ==========================**/
 
 .page-link {
-  color: var(--theme-deafult) !important;
+  //color: var(--theme-deafult) !important;
+  color: #222222;
 }
 .page-item {
   &.active {
     .page-link {
-      background-color: var(--theme-deafult) !important;
-      border-color: var(--theme-deafult) !important;
+      /* background-color: var(--theme-deafult) !important;
+      border-color: var(--theme-deafult) !important; */
+      background-color: #d6d1d1;
+      border-color: #222222 !important;
       color: $white !important;
     }
   }

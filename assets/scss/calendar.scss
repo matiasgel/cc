@@ -51,7 +51,7 @@ dp-day-calendar .dp-calendar-day {
   width: 35px !important;
 
   &:hover {
-    background-color: #ffa500 !important;
+    background-color: $primary-color !important;
     color: white !important;
   }
 }

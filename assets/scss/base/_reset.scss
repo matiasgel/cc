@@ -558,7 +558,7 @@ $btn-color in (primary, $primary-color),
   }
 }
 
-.btn-primary {
+/* .btn-primary {
   background-color: var(--theme-deafult) !important;
   border-color: var(--theme-deafult) !important;
 }
@@ -566,7 +566,7 @@ $btn-color in (primary, $primary-color),
 .btn-secondary {
   background-color: var(--theme-secondary) !important;
   border-color: var(--theme-secondary) !important;
-}
+} */
 
 /*======= Button-color css ends  ======= */
 @each $btn-name,
